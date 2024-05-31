@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+h3{
+    font-family: Arial, sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    
+}
+  
+
+
+  header {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 9px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #45a049;
+  }
+  
+  .banner img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .productos {
+    padding: 20px;
+  }
+  .catalogo {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .producto {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .producto img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+  }    
+
+  nav ul
+  {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+.Datos
+{
+    color: #ffffff;
+    background-color: #0073e6;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+iframe {
+    width: 650px; 
+    height: 400px; 
+}
+
+.image-button {
+    
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.image-button:hover img {
+    transform: scale(1.1); 
+}
+
